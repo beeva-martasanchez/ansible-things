@@ -1,6 +1,6 @@
 ---
 - name: apply configuration to my host
-  hosts: "{{server}}"
+  hosts: centos7
   remote_user: root
 
   roles:
@@ -8,6 +8,5 @@
   - selinux
   var_files:
   - group_vars/webserver
-  - group_vars/all
 
 
