@@ -6,7 +6,8 @@
   roles:
   - apache2
   - selinux
-  var_files:
+
+  vars_files:
   - group_vars/webserver
 
 
