@@ -1,8 +1,7 @@
 ---
 - name: apply configuration to my host
   hosts: localhost
-  remote_user: martasanchez
-  become: yes
+  remote_user: root
 
   roles:
   - apache-ubuntu
