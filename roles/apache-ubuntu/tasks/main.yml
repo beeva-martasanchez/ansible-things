@@ -1,6 +1,6 @@
 ---
 - name: install apache
-  yum: name=apache2 state=present
+  apt: name=apache2 state=present
 
 - name: copy index.html
   template: src=index.html.j2 dest={{apache_docroot}}/index.html

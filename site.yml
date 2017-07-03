@@ -1,7 +1,8 @@
 ---
 - name: apply configuration to my host
-  hosts: centos7
-  remote_user: root
+  hosts: localhost
+  remote_user: martasanchez
+  become: yes
 
   roles:
   - apache-ubuntu
