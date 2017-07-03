@@ -7,7 +7,7 @@
   notify: restart apache
 
 - name: ensure user executing a task
-  shell: echo id
+  command: whoami
 
 - name: ensure apache is running
   service: name=apache2 state=started enabled=yes
