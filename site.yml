@@ -4,8 +4,8 @@
   remote_user: root
 
   roles:
-  - apache2
-  - selinux
+  - apache-ubuntu
+  #- selinux
 
   vars_files:
   - group_vars/webserver
