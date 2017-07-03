@@ -5,7 +5,6 @@
 
   roles:
   - apache-ubuntu
-  #- selinux
 
   vars_files:
   - group_vars/webserver
